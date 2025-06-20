@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color:#fff;
+    height: 5rem;
+    line-height: 5rem; 
+}
+.choice{
+    height:165px;
+    width: 165px;
+   
+}
+
+.choice:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+    margin-top: 3rem;
+    gap:5rem;
+}
+#user-score,#comp-score{
+    font-size:4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: #031b31;
+    color:#fff;
+    font-size:2rem;
+    display:inline;
+    padding:1rem;
+    border-radius: 1rem;
+}
+
+/* For Dark Mode  */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode h1 {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.light-mode h1 {
+    background-color: #f1f1f1;
+    color: #000000;
+}
+
+#toggle-mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #081b31;
+    color: white;
+}
+
+body.light-mode #toggle-mode {
+    background-color: #ccc;
+    color: black;
+}
+/* Restart button  */
+
+.restart-container {
+    margin-top: 2rem;
+}
+
+#restart-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #081b31;
+    color: white;
+    cursor: pointer;
+}
+
+body.light-mode #restart-btn {
+    background-color: #cccccc;
+    color: black;
+}
